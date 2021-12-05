@@ -22,8 +22,8 @@ class Program
             while (true)
             {
                 Console.WriteLine("1) New Game");
-                Console.WriteLine("2) About Author");
-                Console.WriteLine("3) Exit Game");
+                Console.WriteLine("2) Author");
+                Console.WriteLine("3) Exit");
                 while (!Enum.TryParse<Menustate>(Console.ReadKey().KeyChar.ToString(), out state)) ;
                 Console.Clear();
 
