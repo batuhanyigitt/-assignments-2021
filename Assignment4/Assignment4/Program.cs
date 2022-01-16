@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace assignment_5
+namespace assignment_4
 {
 
     static class Settings
